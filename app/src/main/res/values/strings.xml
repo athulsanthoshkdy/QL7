@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quasso Liberum 8</string>
+    <string name="home">Home</string>
+    <string name="sponsor">Sponsors</string>
+    <string name="contact">Contact</string>
+    <string name="about">About</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_home">Home</string>
+    <string name="cevcorner">cev corner</string>
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+    <string name="about_ql">  Quasso Liberum is the techno-cultural fest of College of Engineering Vadakara. It also refers to the independent body of students who organise this event along with many other social initiatives and outreach programs round the year. Undoubtedly QL8 will also take wings and break all the limits. BREAK FREE !</string>
+</resources>

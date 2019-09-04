@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:fontFamily="serif"
+        android:textSize="15sp"
+        android:textColor="@color/cardview_light_background"
+        android:gravity="center"
+        android:text=",nbgsm,sjbjkka"
+        android:id="@+id/counterv"/>
+
+    <technolifestyle.com.imageslider.FlipperLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/flp">
+    </technolifestyle.com.imageslider.FlipperLayout>
+
+    <GridView
+        android:numColumns="3"
+        android:gravity="center"
+        android:columnWidth="100dp"
+         android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/grid"
+        />
+
+</LinearLayout>
+
+
+</FrameLayout>

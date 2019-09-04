@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:background="@drawable/app_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/nav_border"
+        android:animateLayoutChanges="true">
+    </FrameLayout>
+    <View
+        android:id="@+id/nav_border"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/navigation"
+        android:background="#000000"/>
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:theme="@style/Widget.BottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/windowBackground"
+        app:itemBackground="@drawable/nav_background_img"
+        android:foreground="?attr/selectableItemBackground"
+        app:itemIconTint="@color/bgBottomNavigation"
+        app:itemTextColor="@color/cardview_light_background"
+        app:menu="@menu/navigation"/>
+</RelativeLayout>
